@@ -1,0 +1,10 @@
+{
+  "input_size": 80,
+  "input_channels": 1,
+  "learning_rate": 0.001,
+  "conv_layers": [
+    { "filters": 32, "kernel": 3 },
+    { "filters": 64, "kernel": 3 }
+  ],
+  "dense_layers": [128, 64]
+}
